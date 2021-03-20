@@ -6,16 +6,15 @@ export default {
     screens: {
       Root: {
         screens: {
-          TabOne: {
-            screens: {
-              TabOneScreen: 'one',
-            },
-          },
-          TabTwo: {
-            screens: {
-              TabTwoScreen: 'two',
-            },
-          },
+          RepositoriesScreem: 'Repositories',
+          FollowersScreem: 'Followers',
+          FollowingScreem: 'Following',
+          ProfileScreem: 'Profile',
+          // Following: {
+          //   screens: {
+          //     SubScreen: 'sub',
+          //   },
+          // },
         },
       },
       NotFound: '*',
